@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Cast Group</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <img src="img/cast.png"class="img-fluid" alt="Responsive image" width="100" height="100">
+            </li>
+          </ul>
+          <p style="color:white;">Olá José!</p>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <br>
+                <img src="img/person.jpeg"class="img-fluid" alt="Responsive image" width="200" height="200">
+            </div>
+            <div class="col-sm-4">
+                <br>
+                <h3>José Felipe de Souza</h3>
+                <h4>Programador Back-end Junior</h4>
+            </div>
+            <div class="col-sm-6">
+                <br>
+                <h3 class="text-center">Meus conhecimentos e certificados</h3>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Conhecimento</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Informe o conhecimento">
+                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#search-collaborative-knowledge">Buscar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                <h4>Conhecimentos</h4>
+                <form>
+                    <div class="row">
+                        <div class="col-sm-11">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Informe seu conhecimento">
+                            </div>
+                        </div>
+                        <div class="col-sm-1">
+                            <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#new"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div id="new" class="collapse">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row justify-content-between">
+                                            <div class="col-sm-2">
+                                                <img class="card-img-top" src="img/java.svg" alt="Card image cap" width="60" height="60">
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <h5 class="card-title">Java</h5>
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarConhecimento"></i></i>
+                                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirConhecimento"></i>                            
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <h6>Certificados</h6>
+                                        <div class="row">
+                                            <div class="col-sm-11">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Informe seu conhecimento">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#new_certificate"></i>
+                                            </div>
+                                        </div>
+                                        <div id="new_certificate" class="collapse">
+                                            <div class="row justify-content-between">
+                                                <div class="col-sm-6">
+                                                    <p>Certificado Java I</p>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarCertificado"></i>
+                                                    <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirCertificado"></i>                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </form>               
+            </div>
+
+            <div id="search-collaborative-knowledge" class="col-sm-6 collapse">
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-between">
+                            <div class="col-sm-2">
+                                <img class="card-img-top" src="img/java.svg" alt="Card image cap" width="60" height="60">
+                            </div>
+                            <div class="col-sm-2">
+                                <h5 class="card-title">Java</h5>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarConhecimento"></i></i>
+                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirConhecimento"></i>
+                            </div>
+                        </div>
+                        <br>
+                        <h6>Certificados</h6>
+
+                        <div class="row justify-content-between">
+                            <div class="col-sm-4">
+                                <p>Certificado Java I</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarCertificado"></i>
+                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirCertificado"></i>                            
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-sm-4">
+                                <p>Certificado Java II</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarCertificado"></i>
+                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirCertificado"></i>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-between">
+                            <div class="col-sm-2">
+                                <img class="card-img-top" src="img/java.svg" alt="Card image cap" width="60" height="60">
+                            </div>
+                            <div class="col-sm-2">
+                                <h5 class="card-title">Java</h5>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarConhecimento"></i>
+                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirConhecimento"></i>
+                            </div>
+                        </div>
+                        <br>
+                        <h6>Certificados</h6>
+
+                        <div class="row justify-content-between">
+                            <div class="col-sm-4">
+                                <p>Certificado Java I</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarCertificado"></i> 
+                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirCertificado"></i>                            
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-sm-4">
+                                <p>Certificado Java II</p>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="far fa-edit" data-toggle="modal" data-target="#modalEditarCertificado"></i>
+                                <i class="far fa-trash-alt" data-toggle="modal" data-target="#modalExcluirCertificado"></i>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="modalEditarConhecimento">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Editar conhecimento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Java">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Editar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="modalEditarCertificado">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Editar certificado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Certificado Java I">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Editar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="modalExcluirConhecimento">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Excluir conhecimento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Deseja excluir o seu conhecimento?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="modalExcluirCertificado">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Excluir certificado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Deseja excluir o seu certificado?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
