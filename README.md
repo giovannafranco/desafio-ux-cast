@@ -1,16 +1,5 @@
 # Desafio UX Cast
 
-O projeto foi desenvolvido para o seguinte desafio:
-
-Elaborar os protótipos de uma aplicação web utilizando as tecnologias HTML5, CSS e Bootstrap 4, de forma que seja possível pesquisar, incluir, alterar e excluir conhecimentos e certificações dos colaboradores da Cast Group, a fim de facilitar a visualização em forma gráfica e intuitiva para os gestores responsáveis.
-
-- Perfil de gestor:
-Pesquisar com opções de filtro e visualizar as conhecimentos e certificações dos colaboradores.
-
-- Perfil de colaborador: 
-Pesquisar, Cadastrar, Alterar e Excluir as suas conhecimentos e certificações.
-
-
 # Especificações técnicas
 
 Foi desenvolvido um protótipo de alta fidelidade para atender a demanda de um sistema para cadastro e visualizações de conhecimento e certificados que os colaboradores possuem.
@@ -39,6 +28,6 @@ Link do protótipo: https://xd.adobe.com/view/a5516fb7-64ba-48f9-814e-ca43845131
 
 # Como executar o protótipo(HTML+CSS+BOOTSTRAP4)
 
-- Clone o projeto na máquina
+- Clonar o projeto na máquina e acessar a pasta desafio-ux-cast
 - Abrir o arquivo login.html
 - No campo Perfil de acesso, escolher entre Colaborador e Gestor para visualizar a tela de cada perfil.
