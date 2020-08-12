@@ -1,0 +1,31 @@
+body {
+    font-family: Roboto;
+}
+
+body,html{
+    height:100%;
+}
+
+.btn {
+     background-color: black;
+     border-color: black;
+     color: #fff;
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: black;
+    color: #fff;
+}
+
+.btn:focus {
+    background-color: black;
+    border-color: black;
+    color: #fff;
+}
+
+.btn:active  {
+    background-color: red;
+    border-color: black;
+    color: #fff;
+}
